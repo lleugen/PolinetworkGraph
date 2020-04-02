@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Eugenio Ostrovan"
+  },
+  "text": {
+    "more": "This graph was created by Eugenio Ostrovan. The code and more details are available at github.com/lleugen",
+    "intro": "This is a graph of the telegram groups of the polinetwork. Node size is proportional to the number of group members and connections between two groups are based on how many members they have in common.",
+    "title": "Polinetwork graph"
+  },
+  "legend": {
+    "edgeLabel": "Groups have common members",
+    "colorLabel": "Modularity class",
+    "nodeLabel": "Group"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 3,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
